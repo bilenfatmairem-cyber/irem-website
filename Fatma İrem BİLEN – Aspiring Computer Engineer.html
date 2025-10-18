@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fatma İrem BİLEN – Aspiring Computer Engineer</title>
+  <link rel="stylesheet" href="./Fatma İrem BİLEN – Aspiring Computer Engineer_files/bootstrap.min.css">
+  <link rel="stylesheet" href="./Fatma İrem BİLEN – Aspiring Computer Engineer_files/styles.css">
+  <link rel="stylesheet" href="./Fatma İrem BİLEN – Aspiring Computer Engineer_files/all.min.css">
+</head>
+<body>
+  <header class="hero text-center py-5 bg-light">
+    <h1>Fatma İrem Bilen</h1>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/fatma-irem-bilen-1172b6300" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:bilenfatmairem@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <div class="info-container">
+      <div class="info-box">
+        <h2>About Me</h2>
+        <p>
+          Welcome to my page. I am Fatma Irem Bilen, a freshman student at Duzce University. I participated in Teknofest as a competitor during high school. I also joined a student community during my preparatory year. These experiences helped me grow. Currently, I am focused on my department's lectures.
+        </p>
+      </div>
+
+      <div class="info-box">
+        <h2>My Hobbies</h2>
+        <ul>
+          <li>Playing tennis</li>
+          <li>Walking</li>
+          <li>Exploring new things</li>
+          <li>Driving</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h2>Foreign Languages</h2>
+        <ul>
+          <li>English – B1+ level</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h2>Courses and Certificates</h2>
+        <ul>
+          <li>Applied Canva</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h2>My Projects</h2>
+        <ul>
+          <li><strong>Solar Panel Vehicle Sunshade</strong> – A project for Teknofest</li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="contact mt-5">
+      <h2>Contact Me</h2>
+      <form id="contactForm" novalidate="">
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name:</label>
+          <input type="text" class="form-control" id="name" required="">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Message:</label>
+          <textarea class="form-control" id="message" rows="4" required=""></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="text-center py-3 bg-light">
+    <p>© 2025 Fatma Irem Bilen | All rights reserved</p>
+  </footer>
+
+  <script src="./Fatma İrem BİLEN – Aspiring Computer Engineer_files/script.js.indir"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
